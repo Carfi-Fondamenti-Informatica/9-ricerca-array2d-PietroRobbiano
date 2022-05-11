@@ -18,7 +18,11 @@ int ricerca(char mat[10][20],char ar[20]){
     for( int i=0; i<10; i++){
         for( int j=0; j<20; j++){
             if( mat[i][j] != ar[j]){
-                break;
+                if (i==9){
+                    return 10;
+                } else {
+                    break;
+                }
             } else if (mat[i][j] == ar[j]){
                 if (j==19){
                     return i;
