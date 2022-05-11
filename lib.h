@@ -6,3 +6,4 @@
 void init( char mat[20]);
 void init( char mat[10][20]);
 int ricerca(char mat[10][20],char ar[20]);
+ 
