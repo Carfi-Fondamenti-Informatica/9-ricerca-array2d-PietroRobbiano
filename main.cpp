@@ -14,6 +14,10 @@ int main() {
     init(nome);
     cin>> nome;
     int a = ricerca(nomi,nome);
-    cout << a << endl;
+    if(a!=10){
+        cout << a << endl;
+    } else {
+        cout << "non presente" << endl;
+    }
     return 0;
 }
